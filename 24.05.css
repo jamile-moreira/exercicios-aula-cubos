@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.card-movie {
+    background-image: url('minions.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    padding-top: 10px;
+    margin: 10px;
+}
+.card-movie img {
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 90%;
+}
+
+.card-movie h2, h3 {
+    color: rgb(4, 105, 221);
+    text-align: center;
+
+}
+
+h3 {
+    margin-top: 150px;
+    background-color: rgb(255, 250, 182);
+}
