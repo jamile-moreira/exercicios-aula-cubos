@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .card-movie {
@@ -28,4 +29,42 @@
 h3 {
     margin-top: 150px;
     background-color: rgb(255, 250, 182);
+}
+
+.menu {
+    color: darkmagenta;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.itens ul {
+    margin-top: 50px;
+    margin-left: 80px;
+    list-style: none;
+    background-color: rgb(190, 190, 190);
+    width: 450px;
+    height: 42px;
+    border-radius: 7px;
+}
+
+.itens ul li {
+    display: inline-block;
+    height: 42px;
+    min-width: 80px;
+    text-align: center;
+}
+
+.itens ul li a {
+    display: block;
+    color: darkblue;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 12px 15px 0 15px;
+    height: 100%;
+}
+
+.itens ul li a:focus {
+    background-color: cornflowerblue;
+    border-radius: 7px;
 }
