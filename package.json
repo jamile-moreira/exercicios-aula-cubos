@@ -1,0 +1,19 @@
+{
+  "name": "exercicios-aula-cubos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "10.04.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamile-Moreira2310/exercicios-aula-cubos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jamile-Moreira2310/exercicios-aula-cubos/issues"
+  },
+  "homepage": "https://github.com/Jamile-Moreira2310/exercicios-aula-cubos#readme"
+}
