@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 // Configurar router
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
 import Home from './routes/Home.jsx'
 import Contact from './routes/Contact.jsx'
 import ErrorPage from './routes/ErrorPage.jsx'
@@ -39,6 +39,11 @@ const router = createBrowserRouter([
       {
         path: '/contact/:id',
         element: <ContactDetails />,
+      },
+      // 7. navigate para páginas não existentes
+      {
+        path: 'oldContact',
+        element: <Navigate to="/contact" />,
       },
     ],
   },

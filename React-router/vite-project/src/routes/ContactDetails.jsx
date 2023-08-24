@@ -4,9 +4,17 @@ const ContactDetails = () => {
   const { id } = useParams()
 
   //   6. redirecionamento de páginas
+  const navigate = useNavigate()
+
+  const handleContact = () => {
+    console.log('Contato enviado!')
+    return navigate('/')
+  }
+
   return (
     <div>
       <h1>Exibindo mais informações do contato: {id}</h1>
+      <button onClick={handleContact}>Enviar mensagem</button>
     </div>
   )
 }
