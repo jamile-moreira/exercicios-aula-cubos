@@ -8,7 +8,8 @@ const Home = () => {
   return (
     <div>
       <h1>Página inicial</h1>
-      <p></p>
+      <button onClick={toggleTheme}>Mudar tema</button>
+      <p>O tema atual é: {theme} </p>
     </div>
   )
 }
