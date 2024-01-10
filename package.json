@@ -1,7 +1,7 @@
 {
-  "name": "exercicios-aula-cubos",
+  "name": "meu-primeiro-servidor",
   "version": "1.0.0",
-  "description": "",
+  "description": "Esse projeto foi desenvolvido na aula de primeiro servidor do curso da Cubos Academy ",
   "main": "10.04.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/Jamile-Moreira2310/exercicios-aula-cubos.git"
   },
-  "author": "",
+  "author": "Jamile",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Jamile-Moreira2310/exercicios-aula-cubos/issues"
   },
-  "homepage": "https://github.com/Jamile-Moreira2310/exercicios-aula-cubos#readme"
+  "homepage": "https://github.com/Jamile-Moreira2310/exercicios-aula-cubos#readme",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

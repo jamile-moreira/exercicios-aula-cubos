@@ -68,4 +68,17 @@ const dados1: NovoUsuario2 = {
 }
 
 type Ex1 = Exclude<'a' | 'b' | 'c', 'a' | 'b'>
-type EX2 = Extract<'a' | 'b' | 'c', 'a'>
+type Ex2 = Extract<'a' | 'b' | 'c', 'a'>
+
+type Ex5 = NonNullable<number | string[] | null | undefined>
+
+type Ex6 = () => string
+
+type Ex7 = ReturnType<Ex6>
+
+type TipoTransacao = 'credito' | 'debito'
+type TipoTransacaoUpper = Uppercase<TipoTransacao>
+type TipoTransacaoLower = Lowercase<TipoTransacao>
+
+const t1: TipoTransacaoUpper = 'CREDITO'
+const t2: TipoTransacaoLower = 'credito'
